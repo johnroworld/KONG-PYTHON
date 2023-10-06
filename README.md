@@ -2,7 +2,7 @@
 
 ## Clone Repository
 ```
-git clone https://github.com/johnroworld/nodejs-simple-backend.git
+git clone https://github.com/johnroworld/KONG-PYTHON.git
 ```
 
 ## Installation
