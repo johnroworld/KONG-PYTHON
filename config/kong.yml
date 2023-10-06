@@ -1,0 +1,11 @@
+_format_version: "2.1"
+
+# curl -L -i -X GET http://localhost:8000/upload-service --header 'Host: upload-service.com'
+services:
+- name: upload-service
+  url: http://172.22.48.1:5000/upload-service
+  routes:
+  - name: upload-routes
+    paths:
+    - /upload-service
+    methods: [POST, GET]
